@@ -2,6 +2,8 @@
 ________________________________________________________________________________________________________________________
 - để có thể sử dụng Room API, khai báo nhúng Room API vào file ``build.gradle`` Module ở đường dẫn [https://developer.android.com/training/data-storage/room]("https://developer.android.com/training/data-storage/room")
 - các mục optional dành cho những mục đích khác, tùy mục đích sử dụng mà lựa chọn các option tương ứng
+
+```groovy
 dependencies {
     def room_version = "2.3.0"
 
@@ -24,7 +26,9 @@ dependencies {
     implementation "androidx.room:room-paging:2.4.0-alpha05"
 }
 ```
+
 - để hiển thị danh sách bằng Recyclerview API, khai báo nhúng Recyclerview API vào file ``build.gradle`` Module ở đường dẫn [https://developer.android.com/jetpack/androidx/releases/recyclerview]("https://developer.android.com/jetpack/androidx/releases/recyclerview")
+
 ```groovy
 dependencies {
     implementation "androidx.recyclerview:recyclerview:1.2.1"
